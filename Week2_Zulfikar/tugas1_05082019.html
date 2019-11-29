@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belajar JS</title>
+</head>
+
+<body>
+    <p id="paragraphMerah">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat natus in, iure nemo at maiores explicabo, mollitia ad eligendi, nobis quae? Alias voluptates, temporibus corporis odio nulla repudiandae sunt animi.</p>
+    <br>
+    <p id="paragraphKuning">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At nisi est voluptatem earum. Perferendis laudantium sunt laboriosam quos quis corrupti impedit pariatur consequatur. Perferendis voluptatem quam inventore quod exercitationem aperiam, laudantium
+        ex aliquid magnam non, deserunt id nisi corrupti qui fuga pariatur. Adipisci culpa eligendi debitis delectus ex at modi.</p>
+    <br>
+    <p id="paragraphHijau">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus praesentium iste atque, sit voluptas quae quia dolorum commodi odit, ipsum eum quaerat suscipit inventore officiis libero iure aliquid earum ea debitis ad sed accusantium.
+        Ut nulla consectetur debitis odio suscipit deserunt alias, quaerat dolor quam tempore ea. Praesentium, voluptatem.</p>
+
+    <script>
+        var clrinterval = setInterval(changeColor, 1000);
+
+        function changeColor() {
+            var paragraphMerah = document.getElementById("paragraphMerah");
+            paragraphMerah.style.color = paragraphMerah.style.color == "red" ? "black" : "red";
+
+            var paragraphKuning = document.getElementById("paragraphKuning");
+            paragraphKuning.style.color = paragraphKuning.style.color == "yellow" ? "black" : "yellow";
+
+            var paragraphHijau = document.getElementById("paragraphHijau");
+            paragraphHijau.style.color = paragraphHijau.style.color == "green" ? "black" : "green";
+        }
+
+        /*
+        function changeColor() {
+            var warna = document.getElementsByClassName("warna");
+            warna[0].style.color = "red";
+            warna[1].style.color = "yellow";
+            warna[2].style.color = "green";
+
+            function backBlack() {
+                warna[0].style.color = "black";
+                warna[1].style.color = "black";
+                warna[2].style.color = "black";
+            }
+            setInterval(backBlack, 500)
+        }
+        */
+    </script>
+</body>
+
+</html>
