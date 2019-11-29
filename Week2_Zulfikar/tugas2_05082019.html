@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice Two</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <div>
+                <h1>
+                    Practice Two
+                </h1>
+                <p>
+                    Practice to change background color and text color by clicking form to show color palette using javascript
+                </p>
+            </div>
+        </header>
+    </section>
+
+    <section>
+        Text Color
+        <input type="color" id="textColor" value="black">
+        <br> Backround Color
+        <input type="color" id="backgroundColor" value="#ffffff">
+        <button type="button" onclick="getColor()">click me</button>
+
+    </section>
+
+    <script>
+        function getColor() {
+            var warnaBaru = document.getElementById("backgroundColor").value;
+            document.body.style.backgroundColor = warnaBaru;
+
+            document.body.style.color = document.getElementById("textColor").value;
+        }
+    </script>
+</body>
+
+</html>
