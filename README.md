@@ -4,7 +4,7 @@ This project are meant to be fulfiling the requirements of graduation from Glint
 
 ## Prerequisite
 
-In this repo you will find many of my practices during the training, from learning how to write codes using HTML, CSS, JavaScript and so on. The goal of my training are I can make an application using React Native framework and also git repository to collaborate with the team mate
+In this repo you will find many of my practices during the training, from learning how to write codes using HTML, CSS, JavaScript and so on. The goal of my training are, I can make an application using React Native framework and also git repository to collaborate with the team mate.
 
 ### Built with
 
