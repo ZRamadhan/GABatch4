@@ -1,0 +1,34 @@
+.jumbotron {
+    background-color: #1b1b6c;
+    padding-top: 0px;
+}
+
+.color{
+    color: white;
+}
+
+.btn-primary {
+    background-color: #f61067;
+    border-color: #f61067
+}
+
+.container-fluid {
+    padding-left: 25px;
+}
+
+.modal-header {
+    padding: 0px;
+}
+
+/* Utilities */
+.removepaddingOne {
+    padding-left: 15px;
+}
+
+.addPaddingOne {
+    padding-left: 0px;
+}
+
+.spaceOne {
+    height: 10px;
+}
