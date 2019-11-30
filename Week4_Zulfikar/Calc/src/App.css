@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Custon css */
+.calculator-margin {
+  max-width: 300px;
+  margin: auto;
+}
+
+.result-margin {
+  width: 100%;
+  background-color: lightblue;
+  height: 60px;
+}
+
+.result-margin p {
+  font-size: 40px;
+  margin: 5px;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
