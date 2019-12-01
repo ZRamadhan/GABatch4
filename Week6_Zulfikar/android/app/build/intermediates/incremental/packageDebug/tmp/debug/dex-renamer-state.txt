@@ -1,0 +1,4 @@
+#Wed Sep 04 09:43:36 WIB 2019
+base.0=/Users/zulfikar/Documents/Bootcamp/ReactNative/3Sept2019/ReactRedux/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+path.0=classes.dex
